@@ -14,6 +14,7 @@
 .setup-fields{display:grid;grid-template-columns:1fr 1fr;gap:28px}.setup-fields label{font-size:12px}.availability-two{background:#f5df72!important}.availability-empty{background:#ee9c8b!important;color:#793326}.availability-empty b{color:#793326}.teacher-hour.over{background:#ee9c8b!important}.teacher-hour.over strong{color:#8e3d2e}
 .setup-fields input[type="number"]{display:block;width:100%;font:600 32px var(--display);padding:12px 0 9px;margin-top:5px}
 .setup-fields select{display:block;width:100%;font:600 32px var(--display);padding:12px 0 9px;margin-top:5px}
+.setup-fields select,.course-row select,.round-row select{-webkit-appearance:auto;appearance:auto;pointer-events:auto;touch-action:manipulation;cursor:pointer}
 .setup-card .courses-head{margin-bottom:4px}
 @media(max-width:760px){.setup-fields{grid-template-columns:1fr;gap:18px}}
 @media(max-width:760px){.available-summary{max-height:42vh;overflow-y:auto}.available-summary h2,.teacher-summary h2{font-size:17px}.round-labels{display:none}.round-row{grid-template-columns:1fr 1fr;gap:8px;padding:12px 0}.round-row strong{grid-column:1/-1;font-size:12px}.round-row select,.round-line{min-width:0;font-size:11px}.round-line{padding:8px 0}.round-card .button{font-size:12px}.results-page{width:100%}}
