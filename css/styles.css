@@ -16,6 +16,7 @@
 .setup-fields select{display:block;width:100%;font:600 32px var(--display);padding:12px 0 9px;margin-top:5px}
 .setup-fields select,.course-row select,.round-row select{-webkit-appearance:auto;appearance:auto;pointer-events:auto;touch-action:manipulation;cursor:pointer}
 .course-choice{border:0;cursor:pointer;text-align:left;font:12px var(--sans);min-width:130px}.course-choice b{pointer-events:none}.course-choice:disabled{cursor:not-allowed;opacity:1}
+.button,.course-choice{color:var(--ink);-webkit-appearance:none;appearance:none;-webkit-tap-highlight-color:transparent;touch-action:manipulation}.button-dark{color:var(--cream)}.course-choice:active{filter:brightness(.96)}
 .round-labels,.round-row{grid-template-columns:minmax(150px,1.2fr) minmax(130px,1fr) minmax(110px,.8fr) 28px}.clear-assignment{border:0;background:transparent;color:#8e3d2e;font-size:16px;cursor:pointer;padding:4px}.clear-assignment:hover{transform:scale(1.15)}
 @media(max-width:760px){.round-labels,.round-row{grid-template-columns:minmax(92px,1fr) minmax(92px,1.1fr) minmax(70px,.8fr) 22px;gap:4px}.teacher-label{font-size:9px!important}.clear-assignment{font-size:14px;padding:0}}
 .setup-card .courses-head h2{font:700 12px var(--sans);letter-spacing:.08em;text-transform:uppercase}.add-course-bottom{display:flex;margin:14px 0 0 auto}
@@ -46,3 +47,4 @@
 @media(max-width:760px){.round-labels,.round-row{grid-template-columns:minmax(0,1.05fr) minmax(0,1.15fr) minmax(62px,.8fr) 22px}.round-row{gap:4px}.round-row strong{grid-column:auto;grid-row:1}.round-row .clear-assignment{grid-column:4;grid-row:1}}
 #rounds-screen .available-summary{padding:0 14px 14px}
 #rounds-screen #available-courses{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.available-courses-panel .course-choice{width:100%;min-width:0;margin:0}
+@media(max-width:760px){#rounds-screen #available-courses{display:grid!important;width:100%!important;grid-template-columns:1fr 1fr!important;grid-auto-flow:row;gap:8px!important}.available-courses-panel .course-choice{display:block!important;width:100%!important;min-width:0!important;max-width:none!important;margin:0!important;padding:9px 7px!important;font-size:11px!important}}
